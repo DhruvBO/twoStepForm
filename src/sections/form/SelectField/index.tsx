@@ -32,7 +32,7 @@ const SelectField = ({
           sx={{ ...customStyle }}
           select
           label={label}
-          value={value}
+          value={`${value}`}
           onBlur={onBlur}
           onChange={onChange}
           inputRef={ref}

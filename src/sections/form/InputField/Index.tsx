@@ -24,9 +24,10 @@ typePropes) => {
       control={control}
       name={name}
       rules={rules}
+      
       render={({
         field: { onChange, onBlur, value, ref },
-        fieldState: { error }, 
+        fieldState: { error,  }, 
       }) => {
         return (
           <TextField

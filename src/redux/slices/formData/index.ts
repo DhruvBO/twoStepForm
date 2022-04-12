@@ -18,7 +18,7 @@ const initialState: typeFormDataState = {
   email: "",
   address: "",
   pNo: 0,
-  age: 0,
+  age: 18,
   gender: "",
 };
 

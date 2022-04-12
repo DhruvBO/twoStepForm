@@ -16,8 +16,8 @@ const ageError = {
   required: "This field is required.",
   min: "You are not eligible.",
   max: "You are not eligible",
-  minVal: 10,
-  maxVal: 150,
+  minVal: 18,
+  maxVal: 100,
 };
 
 const phoneNoError = {

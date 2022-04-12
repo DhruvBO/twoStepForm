@@ -45,8 +45,8 @@ const ContactInfo = () => {
     setValue("address", "");
     setValue("pNo", "");
   };
-  const onSubmitForm = (formData: any) => {
-    console.log(formData);
+  const onSubmitForm = () => {
+    alert(JSON.stringify(persistedData));
   };
 
   return (
